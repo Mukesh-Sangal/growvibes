@@ -1,0 +1,42 @@
+uuid: d613cb60-c563-48c5-837b-15c0c5420941
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_landings_pages
+    - node.type.pages
+    - paragraphs.paragraphs_type.banner
+    - paragraphs.paragraphs_type.box_container
+  module:
+    - entity_reference_revisions
+id: node.pages.field_landings_pages
+field_name: field_landings_pages
+entity_type: node
+bundle: pages
+label: 'Landings Pages'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      banner: banner
+      box_container: box_container
+    negate: 0
+    target_bundles_drag_drop:
+      banner:
+        weight: 5
+        enabled: true
+      box_container:
+        weight: 6
+        enabled: true
+      box_layout:
+        weight: 7
+        enabled: false
+      home_banner:
+        weight: 8
+        enabled: false
+field_type: entity_reference_revisions

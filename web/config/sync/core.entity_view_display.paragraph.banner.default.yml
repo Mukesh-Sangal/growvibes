@@ -1,0 +1,24 @@
+uuid: 2f691344-4769-45af-992d-48d36265670b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.banner.field_banner_reference
+    - paragraphs.paragraphs_type.banner
+  module:
+    - entity_reference_revisions
+id: paragraph.banner.default
+targetEntityType: paragraph
+bundle: banner
+mode: default
+content:
+  field_banner_reference:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

@@ -1,0 +1,10 @@
+uuid: 31cc8457-0f37-430f-b0c4-1a30c35c65aa
+langcode: en
+status: true
+dependencies: {  }
+id: box_container
+label: 'Box Container'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

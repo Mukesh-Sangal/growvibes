@@ -1,0 +1,24 @@
+uuid: b75cb7ad-9037-4185-b066-1c063bf8727a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_subheading
+    - paragraphs.paragraphs_type.box_layout
+  module:
+    - text
+id: paragraph.box_layout.field_subheading
+field_name: field_subheading
+entity_type: paragraph
+bundle: box_layout
+label: Subheading
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

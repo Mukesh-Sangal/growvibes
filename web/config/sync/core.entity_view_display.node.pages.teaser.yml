@@ -1,0 +1,24 @@
+uuid: 0b54e69c-8d4a-47bb-8a88-4e65f9124c26
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.pages.field_landings_pages
+    - field.field.node.pages.field_page_banner
+    - node.type.pages
+  module:
+    - user
+id: node.pages.teaser
+targetEntityType: node
+bundle: pages
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_landings_pages: true
+  field_page_banner: true

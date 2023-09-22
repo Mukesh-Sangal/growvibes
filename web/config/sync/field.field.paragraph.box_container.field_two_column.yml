@@ -1,0 +1,40 @@
+uuid: 6c02fdd9-eb01-42da-aab7-3728c327825b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_two_column
+    - paragraphs.paragraphs_type.box_container
+    - paragraphs.paragraphs_type.box_layout
+  module:
+    - entity_reference_revisions
+id: paragraph.box_container.field_two_column
+field_name: field_two_column
+entity_type: paragraph
+bundle: box_container
+label: 'Two Column'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      box_layout: box_layout
+    negate: 0
+    target_bundles_drag_drop:
+      banner:
+        weight: 5
+        enabled: false
+      box_container:
+        weight: 6
+        enabled: false
+      box_layout:
+        weight: 7
+        enabled: true
+      home_banner:
+        weight: 8
+        enabled: false
+field_type: entity_reference_revisions

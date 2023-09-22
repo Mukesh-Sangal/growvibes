@@ -1,0 +1,10 @@
+uuid: 6f4279f5-0d29-4748-a7a4-569f1ee41bc9
+langcode: en
+status: true
+dependencies: {  }
+id: box_layout
+label: 'Box layout'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

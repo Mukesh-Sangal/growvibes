@@ -1,0 +1,23 @@
+uuid: 14300c0d-f4cf-47f4-8796-199fc58f8ec4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_section_link
+    - paragraphs.paragraphs_type.box_container
+  module:
+    - link
+id: paragraph.box_container.field_section_link
+field_name: field_section_link
+entity_type: paragraph
+bundle: box_container
+label: 'Section Link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

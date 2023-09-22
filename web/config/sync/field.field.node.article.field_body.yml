@@ -1,0 +1,29 @@
+uuid: 1f6df203-2971-4c04-92dc-6fac952ad8ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_body
+    - node.type.article
+  module:
+    - entity_reference_revisions
+id: node.article.field_body
+field_name: field_body
+entity_type: node
+bundle: article
+label: 'Body Text'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: {  }
+    negate: 0
+    target_bundles_drag_drop:
+      home_page:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

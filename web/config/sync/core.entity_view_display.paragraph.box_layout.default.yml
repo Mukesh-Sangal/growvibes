@@ -1,0 +1,31 @@
+uuid: f854e9a9-a877-4a94-930f-6b21c2e4e6d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.box_layout.field_heading
+    - field.field.paragraph.box_layout.field_subheading
+    - paragraphs.paragraphs_type.box_layout
+  module:
+    - text
+id: paragraph.box_layout.default
+targetEntityType: paragraph
+bundle: box_layout
+mode: default
+content:
+  field_heading:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_subheading:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

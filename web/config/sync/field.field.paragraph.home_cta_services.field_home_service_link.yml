@@ -1,0 +1,23 @@
+uuid: b40d0500-c054-441a-b92c-782f8b84f03e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_home_service_link
+    - paragraphs.paragraphs_type.home_cta_services
+  module:
+    - link
+id: paragraph.home_cta_services.field_home_service_link
+field_name: field_home_service_link
+entity_type: paragraph
+bundle: home_cta_services
+label: 'Home Service Link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

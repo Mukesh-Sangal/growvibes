@@ -1,0 +1,22 @@
+uuid: ec973623-196d-49c4-8710-5b0e91bd396e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_power_house_items
+    - paragraphs.paragraphs_type.power_house_items
+  module:
+    - text
+id: paragraph.power_house_items.field_power_house_items
+field_name: field_power_house_items
+entity_type: paragraph
+bundle: power_house_items
+label: 'Power House Items'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text

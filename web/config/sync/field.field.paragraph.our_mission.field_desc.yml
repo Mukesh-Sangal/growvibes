@@ -1,0 +1,24 @@
+uuid: e7443839-cdc6-408e-9aa9-05fad6566d8e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_desc
+    - paragraphs.paragraphs_type.our_mission
+  module:
+    - text
+id: paragraph.our_mission.field_desc
+field_name: field_desc
+entity_type: paragraph
+bundle: our_mission
+label: Desc
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

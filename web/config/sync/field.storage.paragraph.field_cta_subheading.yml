@@ -1,0 +1,19 @@
+uuid: 6d21c2d8-58ae-403e-95f4-e47891145316
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_cta_subheading
+field_name: field_cta_subheading
+entity_type: paragraph
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

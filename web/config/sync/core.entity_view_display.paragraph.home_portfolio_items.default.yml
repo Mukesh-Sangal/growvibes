@@ -1,0 +1,22 @@
+uuid: 423e97e1-dd6b-407c-a075-2c409205a444
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.home_portfolio_items.field_portfolio_items
+    - paragraphs.paragraphs_type.home_portfolio_items
+  module:
+    - text
+id: paragraph.home_portfolio_items.default
+targetEntityType: paragraph
+bundle: home_portfolio_items
+mode: default
+content:
+  field_portfolio_items:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

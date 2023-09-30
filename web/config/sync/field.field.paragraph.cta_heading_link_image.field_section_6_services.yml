@@ -1,0 +1,19 @@
+uuid: 9827edd8-2329-41e0-9086-20cca2272cea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_section_6_services
+    - paragraphs.paragraphs_type.cta_heading_link_image
+id: paragraph.cta_heading_link_image.field_section_6_services
+field_name: field_section_6_services
+entity_type: paragraph
+bundle: cta_heading_link_image
+label: 'Section 6 services'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

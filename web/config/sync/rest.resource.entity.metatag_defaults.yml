@@ -1,0 +1,18 @@
+uuid: b5932b44-d60a-48f3-884e-f40d34bb80fc
+langcode: en
+status: true
+dependencies:
+  module:
+    - metatag
+    - serialization
+    - user
+id: entity.metatag_defaults
+plugin_id: 'entity:metatag_defaults'
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

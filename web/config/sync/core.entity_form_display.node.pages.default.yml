@@ -4,11 +4,13 @@ status: true
 dependencies:
   config:
     - field.field.node.pages.field_landings_pages
+    - field.field.node.pages.field_meta_tags_for_pages
     - field.field.node.pages.field_page_banner
     - image.style.thumbnail
     - node.type.pages
   module:
     - image
+    - metatag
     - paragraphs
     - path
 id: node.pages.default
@@ -39,6 +41,14 @@ content:
       features:
         collapse_edit_all: collapse_edit_all
         duplicate: duplicate
+    third_party_settings: {  }
+  field_meta_tags_for_pages:
+    type: metatag_firehose
+    weight: 123
+    region: content
+    settings:
+      sidebar: true
+      use_details: true
     third_party_settings: {  }
   field_page_banner:
     type: image_image

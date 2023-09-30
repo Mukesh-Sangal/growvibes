@@ -1,0 +1,25 @@
+uuid: cd5bd60e-4028-42f2-81cf-4f7d67bf9e60
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.power_house_items.field_power_house_items
+    - paragraphs.paragraphs_type.power_house_items
+  module:
+    - text
+id: paragraph.power_house_items.default
+targetEntityType: paragraph
+bundle: power_house_items
+mode: default
+content:
+  field_power_house_items:
+    type: text_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

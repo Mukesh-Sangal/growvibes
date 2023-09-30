@@ -1,0 +1,10 @@
+uuid: 51b72d03-bdd7-4188-a54d-b9b6e20af054
+langcode: en
+status: true
+dependencies: {  }
+id: power_house_items
+label: 'Power House Items'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

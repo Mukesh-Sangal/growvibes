@@ -1,0 +1,22 @@
+uuid: 959608e3-2741-489a-ae5d-a51b30751909
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_portfolio_items
+    - paragraphs.paragraphs_type.home_portfolio_items
+  module:
+    - text
+id: paragraph.home_portfolio_items.field_portfolio_items
+field_name: field_portfolio_items
+entity_type: paragraph
+bundle: home_portfolio_items
+label: 'Portfolio Items'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text

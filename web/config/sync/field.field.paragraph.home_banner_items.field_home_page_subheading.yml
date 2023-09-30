@@ -1,0 +1,22 @@
+uuid: bb8692e1-88ef-482e-84f4-09c1da844f98
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_home_page_subheading
+    - paragraphs.paragraphs_type.home_banner_items
+  module:
+    - text
+id: paragraph.home_banner_items.field_home_page_subheading
+field_name: field_home_page_subheading
+entity_type: paragraph
+bundle: home_banner_items
+label: 'Home Page Subheading'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text

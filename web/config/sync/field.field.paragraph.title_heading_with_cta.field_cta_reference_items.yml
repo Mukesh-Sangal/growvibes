@@ -1,0 +1,58 @@
+uuid: c50b3026-2d90-45f3-b5fc-79c92133db74
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cta_reference_items
+    - paragraphs.paragraphs_type.cta_items
+    - paragraphs.paragraphs_type.title_heading_with_cta
+  module:
+    - entity_reference_revisions
+id: paragraph.title_heading_with_cta.field_cta_reference_items
+field_name: field_cta_reference_items
+entity_type: paragraph
+bundle: title_heading_with_cta
+label: 'cta reference'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      cta_items: cta_items
+    negate: 0
+    target_bundles_drag_drop:
+      banner:
+        weight: 11
+        enabled: false
+      box_container:
+        weight: 12
+        enabled: false
+      box_layout:
+        weight: 13
+        enabled: false
+      cta_items:
+        weight: 14
+        enabled: true
+      faq:
+        weight: 15
+        enabled: false
+      faq_question_answers:
+        weight: 16
+        enabled: false
+      home_banner:
+        weight: 17
+        enabled: false
+      title_heading_with_cta:
+        weight: 18
+        enabled: false
+      title_with_desc_item:
+        weight: 19
+        enabled: false
+      title_with_desc_main:
+        weight: 20
+        enabled: false
+field_type: entity_reference_revisions

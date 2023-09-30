@@ -1,0 +1,22 @@
+uuid: 31a4db1e-a7c7-42ee-a8f6-b8adcb6e1c9c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_home_services_subheading
+    - paragraphs.paragraphs_type.home_cta_services_items
+  module:
+    - text
+id: paragraph.home_cta_services_items.field_home_services_subheading
+field_name: field_home_services_subheading
+entity_type: paragraph
+bundle: home_cta_services_items
+label: 'Home Services Subheading'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

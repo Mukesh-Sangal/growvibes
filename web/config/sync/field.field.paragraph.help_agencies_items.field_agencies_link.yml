@@ -1,0 +1,23 @@
+uuid: 7c5a3e47-617d-4482-829a-d1e5ab695107
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_agencies_link
+    - paragraphs.paragraphs_type.help_agencies_items
+  module:
+    - link
+id: paragraph.help_agencies_items.field_agencies_link
+field_name: field_agencies_link
+entity_type: paragraph
+bundle: help_agencies_items
+label: 'Agencies Link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

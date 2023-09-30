@@ -22,8 +22,10 @@
         "drupal/core-recommended": "^10.1",
         "drupal/jsonapi_resources": "^1.0@beta",
         "drupal/jsonapi_views": "^1.1",
+        "drupal/metatag": "^2.0",
         "drupal/next": "^1.6",
         "drupal/paragraphs": "^1.16",
+        "drupal/raw_formatter": "^2.0",
         "drupal/restui": "^1.21",
         "drush/drush": "^12.2"
     },

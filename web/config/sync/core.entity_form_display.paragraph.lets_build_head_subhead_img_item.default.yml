@@ -1,0 +1,23 @@
+uuid: f1be19ac-6b3d-4f79-83b4-c04305a141f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.lets_build_head_subhead_img_item.field_subhead
+    - paragraphs.paragraphs_type.lets_build_head_subhead_img_item
+id: paragraph.lets_build_head_subhead_img_item.default
+targetEntityType: paragraph
+bundle: lets_build_head_subhead_img_item
+mode: default
+content:
+  field_subhead:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

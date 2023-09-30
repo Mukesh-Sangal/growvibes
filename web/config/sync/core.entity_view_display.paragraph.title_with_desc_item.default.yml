@@ -1,0 +1,31 @@
+uuid: a0a2ec2b-264e-4c02-8f06-88cdbaeaa5eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.title_with_desc_item.field_desc
+    - field.field.paragraph.title_with_desc_item.field_title_with_desc_heading
+    - paragraphs.paragraphs_type.title_with_desc_item
+  module:
+    - text
+id: paragraph.title_with_desc_item.default
+targetEntityType: paragraph
+bundle: title_with_desc_item
+mode: default
+content:
+  field_desc:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_title_with_desc_heading:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

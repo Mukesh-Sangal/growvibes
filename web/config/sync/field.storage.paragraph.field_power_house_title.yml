@@ -1,0 +1,21 @@
+uuid: d360fc7f-06a6-46d9-9eb1-f313ff536830
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_power_house_title
+field_name: field_power_house_title
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

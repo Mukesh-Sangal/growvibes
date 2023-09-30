@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.pages.field_landings_pages
+    - field.field.node.pages.field_meta_tags_for_pages
     - field.field.node.pages.field_page_banner
     - node.type.pages
   module:
@@ -21,4 +22,5 @@ content:
     region: content
 hidden:
   field_landings_pages: true
+  field_meta_tags_for_pages: true
   field_page_banner: true

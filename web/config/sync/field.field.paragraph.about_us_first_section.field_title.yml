@@ -1,0 +1,19 @@
+uuid: a963d510-ca5c-44a2-945a-702eaa590dcf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.about_us_first_section
+id: paragraph.about_us_first_section.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: about_us_first_section
+label: title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

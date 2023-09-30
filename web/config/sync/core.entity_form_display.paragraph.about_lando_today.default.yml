@@ -1,0 +1,55 @@
+uuid: e6719bce-4675-4433-94c9-9e52800f08f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.about_lando_today.field_cta_link
+    - field.field.paragraph.about_lando_today.field_home_page_subheading
+    - field.field.paragraph.about_lando_today.field_lets_build_image
+    - field.field.paragraph.about_lando_today.field_title
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.about_lando_today
+  module:
+    - image
+    - link
+    - text
+id: paragraph.about_lando_today.default
+targetEntityType: paragraph
+bundle: about_lando_today
+mode: default
+content:
+  field_cta_link:
+    type: link_default
+    weight: 2
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_home_page_subheading:
+    type: text_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_lets_build_image:
+    type: image_image
+    weight: 3
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

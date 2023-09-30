@@ -1,0 +1,22 @@
+uuid: 46ad8c46-2683-4f62-a07b-2772525b0d83
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_home_page_subheading
+    - paragraphs.paragraphs_type.about_lando_today
+  module:
+    - text
+id: paragraph.about_lando_today.field_home_page_subheading
+field_name: field_home_page_subheading
+entity_type: paragraph
+bundle: about_lando_today
+label: 'Home Page Subheading'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text

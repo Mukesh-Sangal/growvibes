@@ -1,0 +1,27 @@
+uuid: a1cffd77-9aeb-473f-baa7-408d7fc621f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.help_agencies_items.field_agencies_link
+    - paragraphs.paragraphs_type.help_agencies_items
+  module:
+    - link
+id: paragraph.help_agencies_items.default
+targetEntityType: paragraph
+bundle: help_agencies_items
+mode: default
+content:
+  field_agencies_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

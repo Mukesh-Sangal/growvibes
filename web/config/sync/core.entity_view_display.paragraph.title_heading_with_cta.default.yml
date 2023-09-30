@@ -1,0 +1,56 @@
+uuid: db1db55c-bc28-412d-9f1f-4f0fa06eca83
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.title_heading_with_cta.field_cta_link
+    - field.field.paragraph.title_heading_with_cta.field_cta_reference_items
+    - field.field.paragraph.title_heading_with_cta.field_cta_section_heading
+    - field.field.paragraph.title_heading_with_cta.field_section_5
+    - paragraphs.paragraphs_type.title_heading_with_cta
+  module:
+    - entity_reference_revisions
+    - link
+id: paragraph.title_heading_with_cta.default
+targetEntityType: paragraph
+bundle: title_heading_with_cta
+mode: default
+content:
+  field_cta_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_cta_reference_items:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_cta_section_heading:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_section_5:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden: {  }

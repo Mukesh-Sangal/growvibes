@@ -1,0 +1,19 @@
+uuid: 81d814ab-bfe5-431d-8919-a241de0c29c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_home_banner_title
+    - paragraphs.paragraphs_type.home_banner_items
+id: paragraph.home_banner_items.field_home_banner_title
+field_name: field_home_banner_title
+entity_type: paragraph
+bundle: home_banner_items
+label: 'Home Banner Title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

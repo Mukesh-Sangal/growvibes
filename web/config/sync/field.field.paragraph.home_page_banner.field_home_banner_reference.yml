@@ -1,0 +1,67 @@
+uuid: f8b25611-c5e3-4c3f-9fef-3d434ce3ae8b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_home_banner_reference
+    - paragraphs.paragraphs_type.home_banner_items
+    - paragraphs.paragraphs_type.home_page_banner
+  module:
+    - entity_reference_revisions
+id: paragraph.home_page_banner.field_home_banner_reference
+field_name: field_home_banner_reference
+entity_type: paragraph
+bundle: home_page_banner
+label: 'Home Banner reference'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      home_banner_items: home_banner_items
+    negate: 0
+    target_bundles_drag_drop:
+      banner:
+        weight: 14
+        enabled: false
+      box_container:
+        weight: 15
+        enabled: false
+      box_layout:
+        weight: 16
+        enabled: false
+      cta_heading_link_image:
+        weight: 17
+        enabled: false
+      cta_items:
+        weight: 18
+        enabled: false
+      faq:
+        weight: 19
+        enabled: false
+      faq_question_answers:
+        weight: 20
+        enabled: false
+      home_banner:
+        weight: 21
+        enabled: false
+      home_banner_items:
+        weight: 22
+        enabled: true
+      home_page_banner:
+        weight: 23
+        enabled: false
+      title_heading_with_cta:
+        weight: 24
+        enabled: false
+      title_with_desc_item:
+        weight: 25
+        enabled: false
+      title_with_desc_main:
+        weight: 26
+        enabled: false
+field_type: entity_reference_revisions

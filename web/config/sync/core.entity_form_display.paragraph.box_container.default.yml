@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.box_container.field_section_1_services
     - field.field.paragraph.box_container.field_section_link
     - field.field.paragraph.box_container.field_two_column
     - paragraphs.paragraphs_type.box_container
@@ -14,9 +15,17 @@ targetEntityType: paragraph
 bundle: box_container
 mode: default
 content:
+  field_section_1_services:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   field_section_link:
     type: link_default
-    weight: 1
+    weight: 2
     region: content
     settings:
       placeholder_url: ''
@@ -24,7 +33,7 @@ content:
     third_party_settings: {  }
   field_two_column:
     type: paragraphs
-    weight: 0
+    weight: 1
     region: content
     settings:
       title: Paragraph

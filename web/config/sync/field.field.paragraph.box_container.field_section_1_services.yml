@@ -1,0 +1,19 @@
+uuid: 364785c2-4d8c-4ef3-ac11-e084aefa3df2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_section_1_services
+    - paragraphs.paragraphs_type.box_container
+id: paragraph.box_container.field_section_1_services
+field_name: field_section_1_services
+entity_type: paragraph
+bundle: box_container
+label: 'Section 1 Services'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

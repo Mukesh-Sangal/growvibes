@@ -1,0 +1,10 @@
+uuid: 1aa8378e-5709-4479-a0ac-90459c636be0
+langcode: en
+status: true
+dependencies: {  }
+id: about_lando_today
+label: 'About lando today'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,20 @@
+uuid: 6e9f44af-118b-41da-9da8-35dc1716ed88
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - paragraphs
+id: paragraph.field_help_agencies_reference
+field_name: field_help_agencies_reference
+entity_type: paragraph
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,79 @@
+uuid: 9b66b038-9deb-4631-9b7e-93242b705ace
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_lets_build_reference
+    - paragraphs.paragraphs_type.lets_build_head_subhead_img
+    - paragraphs.paragraphs_type.lets_build_head_subhead_img_item
+  module:
+    - entity_reference_revisions
+id: paragraph.lets_build_head_subhead_img.field_lets_build_reference
+field_name: field_lets_build_reference
+entity_type: paragraph
+bundle: lets_build_head_subhead_img
+label: 'lets build reference'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      lets_build_head_subhead_img_item: lets_build_head_subhead_img_item
+    negate: 0
+    target_bundles_drag_drop:
+      banner:
+        weight: 18
+        enabled: false
+      box_container:
+        weight: 19
+        enabled: false
+      box_layout:
+        weight: 20
+        enabled: false
+      cta_heading_link_image:
+        weight: 21
+        enabled: false
+      cta_items:
+        weight: 22
+        enabled: false
+      faq:
+        weight: 23
+        enabled: false
+      faq_question_answers:
+        weight: 24
+        enabled: false
+      home_banner:
+        weight: 25
+        enabled: false
+      home_banner_items:
+        weight: 26
+        enabled: false
+      home_cta_services:
+        weight: 27
+        enabled: false
+      home_cta_services_items:
+        weight: 28
+        enabled: false
+      home_page_banner:
+        weight: 29
+        enabled: false
+      lets_build_head_subhead_img:
+        weight: 30
+        enabled: false
+      lets_build_head_subhead_img_item:
+        weight: 31
+        enabled: true
+      title_heading_with_cta:
+        weight: 32
+        enabled: false
+      title_with_desc_item:
+        weight: 33
+        enabled: false
+      title_with_desc_main:
+        weight: 34
+        enabled: false
+field_type: entity_reference_revisions

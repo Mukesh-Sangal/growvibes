@@ -1,0 +1,97 @@
+uuid: 062e448d-ea22-42d2-9f48-8f43407201f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_help_agencies_reference
+    - paragraphs.paragraphs_type.help_agencies_items
+    - paragraphs.paragraphs_type.home_page_we_help_agencies
+  module:
+    - entity_reference_revisions
+id: paragraph.home_page_we_help_agencies.field_help_agencies_reference
+field_name: field_help_agencies_reference
+entity_type: paragraph
+bundle: home_page_we_help_agencies
+label: 'help agencies reference'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      help_agencies_items: help_agencies_items
+    negate: 0
+    target_bundles_drag_drop:
+      banner:
+        weight: 24
+        enabled: false
+      box_container:
+        weight: 25
+        enabled: false
+      box_layout:
+        weight: 26
+        enabled: false
+      cta_heading_link_image:
+        weight: 27
+        enabled: false
+      cta_items:
+        weight: 28
+        enabled: false
+      drupal_power_house_customization:
+        weight: 29
+        enabled: false
+      faq:
+        weight: 30
+        enabled: false
+      faq_question_answers:
+        weight: 31
+        enabled: false
+      help_agencies_items:
+        weight: 32
+        enabled: true
+      home_banner:
+        weight: 33
+        enabled: false
+      home_banner_items:
+        weight: 34
+        enabled: false
+      home_cta_services:
+        weight: 35
+        enabled: false
+      home_cta_services_items:
+        weight: 36
+        enabled: false
+      home_page_banner:
+        weight: 37
+        enabled: false
+      home_page_we_help_agencies:
+        weight: 38
+        enabled: false
+      home_portfolio:
+        weight: 39
+        enabled: false
+      home_portfolio_items:
+        weight: 40
+        enabled: false
+      lets_build_head_subhead_img:
+        weight: 41
+        enabled: false
+      lets_build_head_subhead_img_item:
+        weight: 42
+        enabled: false
+      power_house_items:
+        weight: 43
+        enabled: false
+      title_heading_with_cta:
+        weight: 44
+        enabled: false
+      title_with_desc_item:
+        weight: 45
+        enabled: false
+      title_with_desc_main:
+        weight: 46
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,19 @@
+uuid: 5ab036d5-8b2a-462a-a49c-0de71e572565
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - paragraphs
+id: paragraph.field_home_banner_know_more_link
+field_name: field_home_banner_know_more_link
+entity_type: paragraph
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

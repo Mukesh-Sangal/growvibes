@@ -1,0 +1,46 @@
+uuid: fc30cec1-769d-4ca5-a3f6-6c60a385d11b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.drupal_power_house_customization.field_power_house_image
+    - field.field.paragraph.drupal_power_house_customization.field_power_house_reference
+    - field.field.paragraph.drupal_power_house_customization.field_power_house_title
+    - paragraphs.paragraphs_type.drupal_power_house_customization
+  module:
+    - entity_reference_revisions
+    - image
+id: paragraph.drupal_power_house_customization.default
+targetEntityType: paragraph
+bundle: drupal_power_house_customization
+mode: default
+content:
+  field_power_house_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_power_house_reference:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_power_house_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

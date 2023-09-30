@@ -5,8 +5,23 @@ dependencies:
   config:
     - field.storage.node.field_landings_pages
     - node.type.pages
+    - paragraphs.paragraphs_type.about_digital_experiences
+    - paragraphs.paragraphs_type.about_lando_today
+    - paragraphs.paragraphs_type.about_us_first_section
     - paragraphs.paragraphs_type.banner
     - paragraphs.paragraphs_type.box_container
+    - paragraphs.paragraphs_type.cta_heading_link_image
+    - paragraphs.paragraphs_type.drupal_power_house_customization
+    - paragraphs.paragraphs_type.faq
+    - paragraphs.paragraphs_type.home_cta_services
+    - paragraphs.paragraphs_type.home_page_banner
+    - paragraphs.paragraphs_type.home_page_we_help_agencies
+    - paragraphs.paragraphs_type.home_portfolio
+    - paragraphs.paragraphs_type.lets_build_head_subhead_img
+    - paragraphs.paragraphs_type.our_mission
+    - paragraphs.paragraphs_type.our_team
+    - paragraphs.paragraphs_type.title_heading_with_cta
+    - paragraphs.paragraphs_type.title_with_desc_main
   module:
     - entity_reference_revisions
 id: node.pages.field_landings_pages
@@ -25,8 +40,32 @@ settings:
     target_bundles:
       banner: banner
       box_container: box_container
+      faq: faq
+      title_with_desc_main: title_with_desc_main
+      cta_heading_link_image: cta_heading_link_image
+      title_heading_with_cta: title_heading_with_cta
+      home_page_banner: home_page_banner
+      about_us_first_section: about_us_first_section
+      drupal_power_house_customization: drupal_power_house_customization
+      home_cta_services: home_cta_services
+      about_digital_experiences: about_digital_experiences
+      lets_build_head_subhead_img: lets_build_head_subhead_img
+      about_lando_today: about_lando_today
+      home_portfolio: home_portfolio
+      home_page_we_help_agencies: home_page_we_help_agencies
+      our_mission: our_mission
+      our_team: our_team
     negate: 0
     target_bundles_drag_drop:
+      about_digital_experiences:
+        weight: 27
+        enabled: true
+      about_lando_today:
+        weight: 31
+        enabled: true
+      about_us_first_section:
+        weight: 25
+        enabled: true
       banner:
         weight: 5
         enabled: true
@@ -36,7 +75,73 @@ settings:
       box_layout:
         weight: 7
         enabled: false
+      cta_heading_link_image:
+        weight: 15
+        enabled: true
+      cta_items:
+        weight: 14
+        enabled: false
+      drupal_power_house_customization:
+        weight: 25
+        enabled: true
+      faq:
+        weight: 12
+        enabled: true
+      faq_question_answers:
+        weight: 13
+        enabled: false
+      help_agencies_items:
+        weight: 32
+        enabled: false
       home_banner:
         weight: 8
         enabled: false
+      home_banner_items:
+        weight: 22
+        enabled: false
+      home_cta_services:
+        weight: 25
+        enabled: true
+      home_cta_services_items:
+        weight: 26
+        enabled: false
+      home_page_banner:
+        weight: 23
+        enabled: true
+      home_page_we_help_agencies:
+        weight: 38
+        enabled: true
+      home_portfolio:
+        weight: 35
+        enabled: true
+      home_portfolio_items:
+        weight: 36
+        enabled: false
+      lets_build_head_subhead_img:
+        weight: 30
+        enabled: true
+      lets_build_head_subhead_img_item:
+        weight: 31
+        enabled: false
+      our_mission:
+        weight: 46
+        enabled: true
+      our_team:
+        weight: 51
+        enabled: true
+      power_house_items:
+        weight: 35
+        enabled: false
+      team_items:
+        weight: 53
+        enabled: false
+      title_heading_with_cta:
+        weight: 18
+        enabled: true
+      title_with_desc_item:
+        weight: 11
+        enabled: false
+      title_with_desc_main:
+        weight: 12
+        enabled: true
 field_type: entity_reference_revisions

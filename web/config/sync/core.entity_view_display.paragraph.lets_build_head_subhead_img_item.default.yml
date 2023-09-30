@@ -1,0 +1,21 @@
+uuid: 0a196938-5c00-4629-9557-cda17bc585c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.lets_build_head_subhead_img_item.field_subhead
+    - paragraphs.paragraphs_type.lets_build_head_subhead_img_item
+id: paragraph.lets_build_head_subhead_img_item.default
+targetEntityType: paragraph
+bundle: lets_build_head_subhead_img_item
+mode: default
+content:
+  field_subhead:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

@@ -1,0 +1,10 @@
+uuid: ab9c35db-f211-4bd2-8092-0150b53aa0fe
+langcode: en
+status: true
+dependencies: {  }
+id: our_mission
+label: 'Our Mission'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

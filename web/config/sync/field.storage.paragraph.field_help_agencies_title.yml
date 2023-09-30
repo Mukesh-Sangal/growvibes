@@ -1,0 +1,21 @@
+uuid: 43ad5b3d-2035-43d5-a7e7-d6bdbf8db92a
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_help_agencies_title
+field_name: field_help_agencies_title
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

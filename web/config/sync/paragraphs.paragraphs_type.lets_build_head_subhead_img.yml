@@ -1,0 +1,10 @@
+uuid: 739ff721-79e4-4adf-96e1-08e86d519285
+langcode: en
+status: true
+dependencies: {  }
+id: lets_build_head_subhead_img
+label: 'Lets Build head subhead img'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,10 @@
+uuid: 2cb1df6e-6ae7-455f-a644-1c2e080f737c
+langcode: en
+status: true
+dependencies: {  }
+id: drupal_power_house_customization
+label: 'Drupal  Power  House  Customizations'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

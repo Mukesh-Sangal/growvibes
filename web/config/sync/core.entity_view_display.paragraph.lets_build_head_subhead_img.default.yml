@@ -1,0 +1,46 @@
+uuid: a6374f36-2655-4fd3-9d60-e5130e48d708
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.lets_build_head_subhead_img.field_lets_build_head
+    - field.field.paragraph.lets_build_head_subhead_img.field_lets_build_image
+    - field.field.paragraph.lets_build_head_subhead_img.field_lets_build_reference
+    - paragraphs.paragraphs_type.lets_build_head_subhead_img
+  module:
+    - entity_reference_revisions
+    - image
+id: paragraph.lets_build_head_subhead_img.default
+targetEntityType: paragraph
+bundle: lets_build_head_subhead_img
+mode: default
+content:
+  field_lets_build_head:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_lets_build_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_lets_build_reference:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

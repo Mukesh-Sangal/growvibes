@@ -1,0 +1,24 @@
+uuid: 0ce7e3f7-c5d5-490c-90d5-19866595b164
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cta_subheading
+    - paragraphs.paragraphs_type.cta_items
+  module:
+    - text
+id: paragraph.cta_items.field_cta_subheading
+field_name: field_cta_subheading
+entity_type: paragraph
+bundle: cta_items
+label: 'cta subheading'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

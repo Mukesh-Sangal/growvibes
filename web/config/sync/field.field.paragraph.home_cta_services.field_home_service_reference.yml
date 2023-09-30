@@ -1,0 +1,73 @@
+uuid: ffbe1544-ca18-4b94-b581-12aa73a049cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_home_service_reference
+    - paragraphs.paragraphs_type.home_cta_services
+    - paragraphs.paragraphs_type.home_cta_services_items
+  module:
+    - entity_reference_revisions
+id: paragraph.home_cta_services.field_home_service_reference
+field_name: field_home_service_reference
+entity_type: paragraph
+bundle: home_cta_services
+label: 'Home Service reference'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      home_cta_services_items: home_cta_services_items
+    negate: 0
+    target_bundles_drag_drop:
+      banner:
+        weight: 16
+        enabled: false
+      box_container:
+        weight: 17
+        enabled: false
+      box_layout:
+        weight: 18
+        enabled: false
+      cta_heading_link_image:
+        weight: 19
+        enabled: false
+      cta_items:
+        weight: 20
+        enabled: false
+      faq:
+        weight: 21
+        enabled: false
+      faq_question_answers:
+        weight: 22
+        enabled: false
+      home_banner:
+        weight: 23
+        enabled: false
+      home_banner_items:
+        weight: 24
+        enabled: false
+      home_cta_services:
+        weight: 25
+        enabled: false
+      home_cta_services_items:
+        weight: 26
+        enabled: true
+      home_page_banner:
+        weight: 27
+        enabled: false
+      title_heading_with_cta:
+        weight: 28
+        enabled: false
+      title_with_desc_item:
+        weight: 29
+        enabled: false
+      title_with_desc_main:
+        weight: 30
+        enabled: false
+field_type: entity_reference_revisions

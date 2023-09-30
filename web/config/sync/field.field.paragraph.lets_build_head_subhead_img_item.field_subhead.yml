@@ -1,0 +1,19 @@
+uuid: 11c82b1d-61ca-4160-90cb-1f6bac1c8fc0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_subhead
+    - paragraphs.paragraphs_type.lets_build_head_subhead_img_item
+id: paragraph.lets_build_head_subhead_img_item.field_subhead
+field_name: field_subhead
+entity_type: paragraph
+bundle: lets_build_head_subhead_img_item
+label: Subhead
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

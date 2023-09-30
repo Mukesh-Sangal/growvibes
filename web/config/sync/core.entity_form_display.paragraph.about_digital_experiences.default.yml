@@ -1,0 +1,35 @@
+uuid: e25cdf80-e35c-4846-8f97-f48d7d69b961
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.about_digital_experiences.field_lets_build_image
+    - field.field.paragraph.about_digital_experiences.field_title
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.about_digital_experiences
+  module:
+    - image
+id: paragraph.about_digital_experiences.default
+targetEntityType: paragraph
+bundle: about_digital_experiences
+mode: default
+content:
+  field_lets_build_image:
+    type: image_image
+    weight: 2
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

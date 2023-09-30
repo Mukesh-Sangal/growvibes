@@ -1,0 +1,24 @@
+uuid: d6308e5b-f4b0-4801-a783-5b84cf6a3f44
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_desc
+    - paragraphs.paragraphs_type.about_us_first_section
+  module:
+    - text
+id: paragraph.about_us_first_section.field_desc
+field_name: field_desc
+entity_type: paragraph
+bundle: about_us_first_section
+label: Desc
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

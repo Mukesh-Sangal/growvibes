@@ -1,0 +1,46 @@
+uuid: 50f78711-9916-418e-82fb-dac717cfeb74
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title_with_desc_reference
+    - paragraphs.paragraphs_type.title_with_desc_item
+    - paragraphs.paragraphs_type.title_with_desc_main
+  module:
+    - entity_reference_revisions
+id: paragraph.title_with_desc_main.field_title_with_desc_reference
+field_name: field_title_with_desc_reference
+entity_type: paragraph
+bundle: title_with_desc_main
+label: 'Title With desc reference'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      title_with_desc_item: title_with_desc_item
+    negate: 0
+    target_bundles_drag_drop:
+      banner:
+        weight: 7
+        enabled: false
+      box_container:
+        weight: 8
+        enabled: false
+      box_layout:
+        weight: 9
+        enabled: false
+      home_banner:
+        weight: 10
+        enabled: false
+      title_with_desc_item:
+        weight: 11
+        enabled: true
+      title_with_desc_main:
+        weight: 12
+        enabled: false
+field_type: entity_reference_revisions

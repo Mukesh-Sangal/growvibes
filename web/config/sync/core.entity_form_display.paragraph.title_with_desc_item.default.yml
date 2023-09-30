@@ -1,0 +1,36 @@
+uuid: 83e7d8be-d878-49c5-965e-c7ef5da78525
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.title_with_desc_item.field_desc
+    - field.field.paragraph.title_with_desc_item.field_title_with_desc_heading
+    - paragraphs.paragraphs_type.title_with_desc_item
+  module:
+    - text
+id: paragraph.title_with_desc_item.default
+targetEntityType: paragraph
+bundle: title_with_desc_item
+mode: default
+content:
+  field_desc:
+    type: text_textarea_with_summary
+    weight: 0
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_title_with_desc_heading:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,44 @@
+uuid: 086f942f-096f-477b-9bcb-64949d268524
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.home_cta_services_items.field_home_service_heading
+    - field.field.paragraph.home_cta_services_items.field_home_services_subheading
+    - field.field.paragraph.home_cta_services_items.field_service_logo
+    - paragraphs.paragraphs_type.home_cta_services_items
+  module:
+    - image
+    - text
+id: paragraph.home_cta_services_items.default
+targetEntityType: paragraph
+bundle: home_cta_services_items
+mode: default
+content:
+  field_home_service_heading:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_home_services_subheading:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_service_logo:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

@@ -1,0 +1,47 @@
+uuid: f9fcf687-0ecd-4056-9d8f-dd54624d467c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.about_us_first_section.field_desc
+    - field.field.paragraph.about_us_first_section.field_lets_build_image
+    - field.field.paragraph.about_us_first_section.field_title
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.about_us_first_section
+  module:
+    - image
+    - text
+id: paragraph.about_us_first_section.default
+targetEntityType: paragraph
+bundle: about_us_first_section
+mode: default
+content:
+  field_desc:
+    type: text_textarea_with_summary
+    weight: 1
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_lets_build_image:
+    type: image_image
+    weight: 2
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

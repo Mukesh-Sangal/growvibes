@@ -1,0 +1,10 @@
+uuid: 39d29ad4-122f-41b8-bb18-72ca1df94d42
+langcode: en
+status: true
+dependencies: {  }
+id: about_us_first_section
+label: 'About us First Section'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

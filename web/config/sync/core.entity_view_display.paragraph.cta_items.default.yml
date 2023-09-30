@@ -1,0 +1,22 @@
+uuid: 2bcd7dc0-1ee8-4be8-9a59-a2f176f2ca47
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.cta_items.field_cta_subheading
+    - paragraphs.paragraphs_type.cta_items
+  module:
+    - text
+id: paragraph.cta_items.default
+targetEntityType: paragraph
+bundle: cta_items
+mode: default
+content:
+  field_cta_subheading:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

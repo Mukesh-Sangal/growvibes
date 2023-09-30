@@ -1,0 +1,22 @@
+uuid: a946d2f8-c255-4752-b136-6ef78753aaae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.power_house_items.field_power_house_items
+    - paragraphs.paragraphs_type.power_house_items
+  module:
+    - text
+id: paragraph.power_house_items.default
+targetEntityType: paragraph
+bundle: power_house_items
+mode: default
+content:
+  field_power_house_items:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

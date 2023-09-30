@@ -1,0 +1,42 @@
+uuid: 52a7b4ee-7fb6-42df-97c5-515115ad26f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.title_with_desc_main.field_section_2_
+    - field.field.paragraph.title_with_desc_main.field_title
+    - field.field.paragraph.title_with_desc_main.field_title_with_desc_reference
+    - paragraphs.paragraphs_type.title_with_desc_main
+  module:
+    - entity_reference_revisions
+id: paragraph.title_with_desc_main.default
+targetEntityType: paragraph
+bundle: title_with_desc_main
+mode: default
+content:
+  field_section_2_:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_title_with_desc_reference:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

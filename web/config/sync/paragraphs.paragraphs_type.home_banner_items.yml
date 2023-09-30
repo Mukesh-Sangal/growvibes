@@ -1,0 +1,10 @@
+uuid: 0048fb83-596c-4a67-aec2-ec8a293a4d28
+langcode: en
+status: true
+dependencies: {  }
+id: home_banner_items
+label: 'Home Banner Items'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

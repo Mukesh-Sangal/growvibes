@@ -1,0 +1,25 @@
+uuid: f637960d-7874-4470-aa54-952a7739cbad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.home_portfolio_items.field_portfolio_items
+    - paragraphs.paragraphs_type.home_portfolio_items
+  module:
+    - text
+id: paragraph.home_portfolio_items.default
+targetEntityType: paragraph
+bundle: home_portfolio_items
+mode: default
+content:
+  field_portfolio_items:
+    type: text_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,10 @@
+uuid: c780dbce-68aa-44f8-9cdd-3b468b374410
+langcode: en
+status: true
+dependencies: {  }
+id: about_digital_experiences
+label: 'About Digital Experiences'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

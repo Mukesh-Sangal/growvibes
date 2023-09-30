@@ -1,0 +1,10 @@
+uuid: 8254aad8-967e-4b18-a97c-cdc8743203bc
+langcode: en
+status: true
+dependencies: {  }
+id: home_portfolio_items
+label: 'Home Portfolio Items'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

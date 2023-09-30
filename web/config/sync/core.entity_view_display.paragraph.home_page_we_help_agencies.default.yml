@@ -1,0 +1,33 @@
+uuid: e9a84dbd-271c-4ce8-b557-de244d78e417
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.home_page_we_help_agencies.field_help_agencies_reference
+    - field.field.paragraph.home_page_we_help_agencies.field_help_agencies_title
+    - paragraphs.paragraphs_type.home_page_we_help_agencies
+  module:
+    - entity_reference_revisions
+id: paragraph.home_page_we_help_agencies.default
+targetEntityType: paragraph
+bundle: home_page_we_help_agencies
+mode: default
+content:
+  field_help_agencies_reference:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_help_agencies_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

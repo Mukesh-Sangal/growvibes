@@ -1,0 +1,31 @@
+uuid: 5ddc0c7f-7a37-4c8e-a282-794c4db1a58b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.our_mission.field_desc
+    - field.field.paragraph.our_mission.field_title
+    - paragraphs.paragraphs_type.our_mission
+  module:
+    - text
+id: paragraph.our_mission.default
+targetEntityType: paragraph
+bundle: our_mission
+mode: default
+content:
+  field_desc:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

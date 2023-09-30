@@ -1,0 +1,53 @@
+uuid: 34e2e980-1f9a-4728-9066-3486f7b68e4a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.title_with_desc_main.field_section_2_
+    - field.field.paragraph.title_with_desc_main.field_title
+    - field.field.paragraph.title_with_desc_main.field_title_with_desc_reference
+    - paragraphs.paragraphs_type.title_with_desc_main
+  module:
+    - paragraphs
+id: paragraph.title_with_desc_main.default
+targetEntityType: paragraph
+bundle: title_with_desc_main
+mode: default
+content:
+  field_section_2_:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_title_with_desc_reference:
+    type: paragraphs
+    weight: 1
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+      features:
+        collapse_edit_all: collapse_edit_all
+        duplicate: duplicate
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

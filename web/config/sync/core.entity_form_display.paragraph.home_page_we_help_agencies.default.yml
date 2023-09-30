@@ -1,0 +1,44 @@
+uuid: 8450ae22-8ef6-494c-aa5f-8c3aade50fde
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.home_page_we_help_agencies.field_help_agencies_reference
+    - field.field.paragraph.home_page_we_help_agencies.field_help_agencies_title
+    - paragraphs.paragraphs_type.home_page_we_help_agencies
+  module:
+    - paragraphs
+id: paragraph.home_page_we_help_agencies.default
+targetEntityType: paragraph
+bundle: home_page_we_help_agencies
+mode: default
+content:
+  field_help_agencies_reference:
+    type: paragraphs
+    weight: 1
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+      features:
+        collapse_edit_all: collapse_edit_all
+        duplicate: duplicate
+    third_party_settings: {  }
+  field_help_agencies_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

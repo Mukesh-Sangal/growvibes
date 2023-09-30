@@ -1,0 +1,10 @@
+uuid: ab52815b-dd67-4e53-9abb-97ba1b53acde
+langcode: en
+status: true
+dependencies: {  }
+id: cta_heading_link_image
+label: 'Cta Heading Link Image'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

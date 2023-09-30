@@ -1,0 +1,27 @@
+uuid: 3e9b2582-0450-4991-a7a8-3e016254b7cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.cta_items.field_cta_subheading
+    - paragraphs.paragraphs_type.cta_items
+  module:
+    - text
+id: paragraph.cta_items.default
+targetEntityType: paragraph
+bundle: cta_items
+mode: default
+content:
+  field_cta_subheading:
+    type: text_textarea_with_summary
+    weight: 0
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

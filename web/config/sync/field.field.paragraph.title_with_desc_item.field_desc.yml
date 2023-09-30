@@ -1,0 +1,24 @@
+uuid: 9095773e-5879-47f8-a47c-01ec7ed66f9d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_desc
+    - paragraphs.paragraphs_type.title_with_desc_item
+  module:
+    - text
+id: paragraph.title_with_desc_item.field_desc
+field_name: field_desc
+entity_type: paragraph
+bundle: title_with_desc_item
+label: Desc
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

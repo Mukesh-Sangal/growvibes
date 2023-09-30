@@ -1,0 +1,10 @@
+uuid: 31617cdf-2d53-44f7-a8aa-f45977ecddec
+langcode: en
+status: true
+dependencies: {  }
+id: help_agencies_items
+label: 'Help agencies  Items'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

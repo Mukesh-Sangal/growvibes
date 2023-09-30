@@ -1,0 +1,91 @@
+uuid: 88d0f07d-48d9-4df8-98db-097af882295f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_portfolio_reference
+    - paragraphs.paragraphs_type.home_portfolio
+    - paragraphs.paragraphs_type.home_portfolio_items
+  module:
+    - entity_reference_revisions
+id: paragraph.home_portfolio.field_portfolio_reference
+field_name: field_portfolio_reference
+entity_type: paragraph
+bundle: home_portfolio
+label: 'Portfolio Reference'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      home_portfolio_items: home_portfolio_items
+    negate: 0
+    target_bundles_drag_drop:
+      banner:
+        weight: 22
+        enabled: false
+      box_container:
+        weight: 23
+        enabled: false
+      box_layout:
+        weight: 24
+        enabled: false
+      cta_heading_link_image:
+        weight: 25
+        enabled: false
+      cta_items:
+        weight: 26
+        enabled: false
+      drupal_power_house_customization:
+        weight: 27
+        enabled: false
+      faq:
+        weight: 28
+        enabled: false
+      faq_question_answers:
+        weight: 29
+        enabled: false
+      home_banner:
+        weight: 30
+        enabled: false
+      home_banner_items:
+        weight: 31
+        enabled: false
+      home_cta_services:
+        weight: 32
+        enabled: false
+      home_cta_services_items:
+        weight: 33
+        enabled: false
+      home_page_banner:
+        weight: 34
+        enabled: false
+      home_portfolio:
+        weight: 35
+        enabled: false
+      home_portfolio_items:
+        weight: 36
+        enabled: true
+      lets_build_head_subhead_img:
+        weight: 37
+        enabled: false
+      lets_build_head_subhead_img_item:
+        weight: 38
+        enabled: false
+      power_house_items:
+        weight: 39
+        enabled: false
+      title_heading_with_cta:
+        weight: 40
+        enabled: false
+      title_with_desc_item:
+        weight: 41
+        enabled: false
+      title_with_desc_main:
+        weight: 42
+        enabled: false
+field_type: entity_reference_revisions

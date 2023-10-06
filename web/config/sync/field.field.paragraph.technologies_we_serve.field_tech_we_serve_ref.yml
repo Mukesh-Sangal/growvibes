@@ -1,0 +1,121 @@
+uuid: a0e2f1ae-16d0-4616-97fa-bb5835638e5d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_tech_we_serve_ref
+    - paragraphs.paragraphs_type.technologies_we_serve
+    - paragraphs.paragraphs_type.technologies_we_serve_items
+  module:
+    - entity_reference_revisions
+id: paragraph.technologies_we_serve.field_tech_we_serve_ref
+field_name: field_tech_we_serve_ref
+entity_type: paragraph
+bundle: technologies_we_serve
+label: 'Tech We Serve ref'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      technologies_we_serve_items: technologies_we_serve_items
+    negate: 0
+    target_bundles_drag_drop:
+      about_digital_experiences:
+        weight: 32
+        enabled: false
+      about_lando_today:
+        weight: 33
+        enabled: false
+      about_us_first_section:
+        weight: 34
+        enabled: false
+      banner:
+        weight: 35
+        enabled: false
+      box_container:
+        weight: 36
+        enabled: false
+      box_layout:
+        weight: 37
+        enabled: false
+      cta_heading_link_image:
+        weight: 38
+        enabled: false
+      cta_items:
+        weight: 39
+        enabled: false
+      drupal_power_house_customization:
+        weight: 40
+        enabled: false
+      faq:
+        weight: 41
+        enabled: false
+      faq_question_answers:
+        weight: 42
+        enabled: false
+      help_agencies_items:
+        weight: 43
+        enabled: false
+      home_banner:
+        weight: 44
+        enabled: false
+      home_banner_items:
+        weight: 45
+        enabled: false
+      home_cta_services:
+        weight: 46
+        enabled: false
+      home_cta_services_items:
+        weight: 47
+        enabled: false
+      home_page_banner:
+        weight: 48
+        enabled: false
+      home_page_we_help_agencies:
+        weight: 49
+        enabled: false
+      home_portfolio:
+        weight: 50
+        enabled: false
+      home_portfolio_items:
+        weight: 51
+        enabled: false
+      lets_build_head_subhead_img:
+        weight: 52
+        enabled: false
+      lets_build_head_subhead_img_item:
+        weight: 53
+        enabled: false
+      our_mission:
+        weight: 54
+        enabled: false
+      our_team:
+        weight: 55
+        enabled: false
+      power_house_items:
+        weight: 56
+        enabled: false
+      team_items:
+        weight: 57
+        enabled: false
+      technologies_we_serve:
+        weight: 58
+        enabled: false
+      technologies_we_serve_items:
+        weight: 59
+        enabled: true
+      title_heading_with_cta:
+        weight: 60
+        enabled: false
+      title_with_desc_item:
+        weight: 61
+        enabled: false
+      title_with_desc_main:
+        weight: 62
+        enabled: false
+field_type: entity_reference_revisions

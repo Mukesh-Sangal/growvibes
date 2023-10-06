@@ -1,0 +1,54 @@
+uuid: 498cbf6a-8bf9-4616-a525-4e26231d6e3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.technologies_we_serve.field_section_link
+    - field.field.paragraph.technologies_we_serve.field_tech_we_serve_ref
+    - field.field.paragraph.technologies_we_serve.field_title
+    - paragraphs.paragraphs_type.technologies_we_serve
+  module:
+    - link
+    - paragraphs
+id: paragraph.technologies_we_serve.default
+targetEntityType: paragraph
+bundle: technologies_we_serve
+mode: default
+content:
+  field_section_link:
+    type: link_default
+    weight: 2
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_tech_we_serve_ref:
+    type: paragraphs
+    weight: 3
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+      features:
+        collapse_edit_all: collapse_edit_all
+        duplicate: duplicate
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

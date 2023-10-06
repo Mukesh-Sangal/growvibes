@@ -1,0 +1,10 @@
+uuid: fe9414be-35e6-465a-aa8f-431328680662
+langcode: en
+status: true
+dependencies: {  }
+id: technologies_we_serve_items
+label: 'Technologies We Serve Items'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

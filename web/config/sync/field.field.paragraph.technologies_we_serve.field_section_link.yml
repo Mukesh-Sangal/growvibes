@@ -1,0 +1,23 @@
+uuid: ae7179d5-9f9a-4417-8d53-8b90c4cb332a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_section_link
+    - paragraphs.paragraphs_type.technologies_we_serve
+  module:
+    - link
+id: paragraph.technologies_we_serve.field_section_link
+field_name: field_section_link
+entity_type: paragraph
+bundle: technologies_we_serve
+label: 'Section Link'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

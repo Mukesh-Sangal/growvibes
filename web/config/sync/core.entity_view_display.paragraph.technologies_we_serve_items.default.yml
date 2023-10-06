@@ -1,0 +1,35 @@
+uuid: 4e40a327-53e6-4cfb-b839-74c26fee2dcd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.technologies_we_serve_items.field_tech_heading
+    - field.field.paragraph.technologies_we_serve_items.field_tech_image_unlimited
+    - paragraphs.paragraphs_type.technologies_we_serve_items
+  module:
+    - image
+id: paragraph.technologies_we_serve_items.default
+targetEntityType: paragraph
+bundle: technologies_we_serve_items
+mode: default
+content:
+  field_tech_heading:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_tech_image_unlimited:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

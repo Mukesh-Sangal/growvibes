@@ -1,0 +1,47 @@
+uuid: 5c3904f0-afc2-4afe-9f4a-67f4c2a0c379
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.technologies_we_serve.field_section_link
+    - field.field.paragraph.technologies_we_serve.field_tech_we_serve_ref
+    - field.field.paragraph.technologies_we_serve.field_title
+    - paragraphs.paragraphs_type.technologies_we_serve
+  module:
+    - entity_reference_revisions
+    - link
+id: paragraph.technologies_we_serve.default
+targetEntityType: paragraph
+bundle: technologies_we_serve
+mode: default
+content:
+  field_section_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_tech_we_serve_ref:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
